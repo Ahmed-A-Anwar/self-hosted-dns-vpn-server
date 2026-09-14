@@ -15,6 +15,7 @@ remote access built on repurposed hardware (Intel Core 2 Duo, 2GB RAM).
 - Flashed Ubuntu Server LTS to USB using Etcher
 - Installed on a legacy device
 its specs : intel Core i2 Duo and 2GBs RAM
+-  connected to server by SSH
 - Set static IP via netplan:
 ```bash
 sudo nano /etc/netplan/00-installer-config.yaml
