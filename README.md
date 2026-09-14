@@ -62,7 +62,7 @@ sudo pihole reloaddns
 ```bash
 dig @127.0.0.1 www.google.com +short
 ```
-it retured: 216.239.38.120 
+it returned: 216.239.38.120 
 so override is working
 ### 5. Remote Access Security Hardening
 Wireguard requires an open port on the router for port forwarding, so I hardened the server 
