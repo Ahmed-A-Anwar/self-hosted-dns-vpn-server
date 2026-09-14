@@ -32,7 +32,7 @@ curl -sSL https://install.pi-hole.net | sudo bash
 ```bash
 sudo apt install wireguard -y
 ```
-- Generated server + client keypairs
+- Generated server and client keypairs
 ```bash
  wg genkey | sudo tee /etc/wireguard/privatekey | wg pubkey | sudo tee /etc/wireguard/publickey
  ```
