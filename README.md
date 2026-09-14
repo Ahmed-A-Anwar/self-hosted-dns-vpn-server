@@ -80,7 +80,7 @@ sudo dpkg-reconfigure -plow unattended-upgrades
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 51820/udp              # for Wireguard only
-sudo ufw allow from 192.168.1.0/24    # trust the local network only
+sudo ufw allow from 192.168.1.0/24    # trust the local network only for SSH
 ```
 
 **Router port forwarding:** UDP 51820 to server's static local IP
