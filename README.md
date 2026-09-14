@@ -1,6 +1,6 @@
 # Home DNS and VPN Server
 Self-hosted network-wide ad blocking, SafeSearch enforcement, and secure 
-remote access — built on repurposed hardware (Intel Core 2 Duo, 2GB RAM).
+remote access built on repurposed hardware (Intel Core 2 Duo, 2GB RAM).
 
 ## What I used
 - Ubuntu Server 26.04 LTS
